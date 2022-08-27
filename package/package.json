@@ -1,0 +1,52 @@
+{
+  "name": "heap-process-bar",
+  "version": "0.0.1-beta.1",
+  "description": "Set several heap div in process bar",
+  "author": {
+    "name": "wkevin",
+    "email": "wkevin27@gmail.com"
+  },
+  "user": "wkevin",
+  "homepage": "https://github.com/wkevin/heap-process-bar",
+  "keywords": [
+    "vue",
+    "process-bar",
+    "heap-process-bar"
+  ],
+  "files": [
+    "dist",
+    "../img/show.gif"
+  ],
+  "type": "module",
+  "main": "./dist/heap-process-bar.umd.js",
+  "module": "./dist/heap-process-bar.es.js",
+  "browser": "./dist/heap-process-bar.umd.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wkevin/heap-process-bar.git"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/heap-process-bar.es.js",
+      "require": "./dist/heap-process-bar.umd.js"
+    }
+  },
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly && mkdir dist/types && mv dist/*.ts dist/types",
+    "declarats": "vue-tsc --emitDeclarationOnly",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vue-tsc": "^0.39.5"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "wkevin-heap-process-bar",
+  "workspaces": [
+    "package",
+    "example"
+  ]
+}
