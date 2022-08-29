@@ -40,6 +40,6 @@ more detail in [example/src/App.vue](./example/src/App.vue)
 $ git clone https://github.com/wkevin/heap-process-bar
 $ cd heap-process-bar
 $ npm i
-$ npm run build --workspace package
+$ npm run build --workspace component
 $ npm run dev --workspace example
 ```

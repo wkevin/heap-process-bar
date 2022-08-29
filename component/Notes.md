@@ -1,14 +1,22 @@
 # Dev
 
-## publish
+## how to publish
+
+- build
 
 ```sh
 $ npm install
-$ cd package
+$ cd component
 $ npm run build
 ```
 
-修改 version in package.json。
+- modify version
+
+```sh
+$ npm version <x.y.z>[-beta.N]
+```
+
+- publish
 
 ```sh
 $ npm login

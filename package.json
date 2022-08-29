@@ -1,7 +1,7 @@
 {
   "name": "wkevin-heap-process-bar",
   "workspaces": [
-    "package",
+    "component",
     "example"
   ]
 }
